@@ -1,6 +1,5 @@
 # ============================================================
-# CELL 0 — RUN THIS FIRST IN YOUR KAGGLE NOTEBOOK
-# Copy-paste this entire cell and run it before anything else
+# CELL 0
 # ============================================================
 
 # System dependencies for OpenSlide (.mrxs support)
@@ -69,9 +68,5 @@ print("""
   Phase 3 → phase3_clustering.py     (K-Means + HDBSCAN)
   Phase 4 → phase4_spatial_maps.py   (maps + validation)
   Phase 5 → phase5_visualization.py  (UMAP + thumbnails)
-
-  ⚠ IMPORTANT: After Phase 2, your embeddings are saved to
-  /kaggle/working/embeddings_pca.npy — if session restarts,
-  you can skip Phases 1 & 2 and load from this file directly.
 ══════════════════════════════════════════════
 """)
