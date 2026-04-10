@@ -231,7 +231,7 @@ def process_slide(slide_path, stain_normalize):
 
     slide.close()
     done_flag.touch()
-    print(f"  ✓ {len(records)} total patches | {time.time()-t0:.1f}s")
+    print(f" {len(records)} total patches | {time.time()-t0:.1f}s")
     return records
 
 
