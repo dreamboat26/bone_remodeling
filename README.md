@@ -34,6 +34,7 @@ apt-get install -y openslide-tools libopenslide-dev -q
 
 # Python packages
 pip install openslide-python torchstain opencv-python-headless timm hdbscan umap-learn -q
+```
 
 ## Execution Order
 
@@ -46,3 +47,7 @@ Run the scripts in the following order. Each phase saves intermediate results an
 | 3 | `phase3_clustering.py` | `python phase3_clustering.py` | Clusters patches with K‑Means and HDBSCAN. Outputs `cluster_assignments.csv`. |
 | 4 | `phase4_spatial_maps.py` | `python phase4_spatial_maps.py` | Projects clusters onto slide coordinates, generates spatial maps and validation plots. |
 | 5 | `phase5_visualization.py` | `python phase5_visualization.py` | Creates PCA/UMAP visualisations and thumbnail galleries. |
+
+## Visualizations
+
+For visualizations refer to the folder named Visualizations, we have put all visualizations for Case 009 and Case 218 for better understanding. 
