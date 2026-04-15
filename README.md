@@ -1,6 +1,6 @@
 # Bone Remodeling Analysis Self Supervised Pipeline
 
-End‑to‑end pipeline for self-supervised analysis of H&E whole‑slide images (`.mrxs` format). The pipeline extracts tissue patches, computes deep features with DINOv2, clusters patches to discover histological states, and generates spatial maps and visualisations.
+End‑to‑end pipeline for self-supervised analysis of H&E whole‑slide images (`.mrxs` format). The pipeline extracts tissue patches, computes deep features with DINOv2, clusters patches to discover histological states, and generates visualisations.
 
 ## Overview
 
